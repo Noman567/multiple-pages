@@ -1,0 +1,117 @@
+/* Media query */
+@media(max-width:1199.5px){
+
+}
+
+.parallax:not(.parallax-main){
+    background-size: 50%;
+}
+.main-wrapper .black-card{
+    width: 100%;
+}
+.process-wrapper .process-content{
+    width: 100%;
+}
+.form-section{
+    padding: 4rem 1rem;
+}
+
+.contact .get-in-touch .card{
+    padding:2rem 1rem;
+}
+
+@media(max-width:991.5px) {
+    .header .navbar-collapse{
+        padding: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+
+    }
+    .banner-wrapper{
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+}
+
+.main-wrapper .black-card{
+    left: -226px;
+}
+.main-wrapper .black-card.right{
+    right: -226px;
+}
+.parallax-main{
+    background-size: cover;
+}
+/* contact page */
+.contact .get-in-touch .card{
+    min-width: 350px;
+}
+
+
+
+@media (max-width:767.5px) {
+    body,
+    html{
+        font-size: 8px;
+    }
+    .banner-wrapper{
+        min-height: 550px;
+    }
+}
+.main-wrapper .black-card{
+    left: 5%;
+    width: 90%;
+}
+.main-wrapper .black-card.right{
+    right: 5%;
+    right: unset;
+    width: 90%;
+}
+.parallax:not(.parallax-main){
+    background-size: cover;
+}
+.parallax-1{
+    background-size: cover;
+}
+/* contact */
+.contact .get-in-touch .card{
+    min-height: 310px;
+}
+
+@media(max-width:590px){
+    body,
+    html{
+        font-size: 7px;
+    }
+}
+.parallax.img2,
+.parallax.img3,
+.parallax.img4,
+.parallax.img5{
+    height: 480px;
+}
+.main-wrapper{
+    margin-top: 35vh;
+}
+/* footer */
+.link-widget a img{
+    width: 30px;
+    height: 30px;
+}
+.contact .get-in-touch .card{
+    min-height: 254px;
+}
+
+@media(max-width:390.4px){
+    h1{
+        font-size: 27px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
+
